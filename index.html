@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <style>
+        body {
+            text-align: center;
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio!!</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about_me.html">About Me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2 class="title">Mohan Khadka</h2>
+        <p>I'm Mohan, a skilled and creative person with a passion for learning about coding.</p>
+        <img src="IMG_0433.jpeg" style="width: 200px; height: 300px;">
+    </section>
+
+    <h1>About Me</h1>
+    <section>
+        <h2>Introducing myself</h2>
+        <p>I am a passionate learner of C++ and HTML with a love for creating beautiful and functional webpages.</p>
+    </section>
+    <section>
+        <h3>My Skills</h3>
+        <ul>
+            <li>HTML</li>
+            <li>C++</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
+
+    <main>
+        <h1>Contact Me!!</h1>
+        <section>
+            <h2>Send Me a Message</h2>
+            <form action="submit.php" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" required></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+</body>
+</html>
